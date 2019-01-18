@@ -3,7 +3,7 @@ require_relative('data')
 
 describe 'List' do
   describe '#pivot_index' do
-    it 'returns the index of where the sum of the numbers on the left is equal to the sum of the numbers on the right' do
+    it 'returns the pivot index where the sum of the numbers on the left is equal to the sum of the numbers on the right' do
       pivotal_lists.each do |pivotal_list|
         list = List.new(pivotal_list[:list])
         expect(list.pivot_index).to eq(pivotal_list[:pivot_index])
