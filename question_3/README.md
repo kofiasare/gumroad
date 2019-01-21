@@ -1,2 +1,2 @@
-# Question 1
-![](assets/erd.png)
+# Question 3
+![](assets/erd.svg)
