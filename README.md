@@ -1,1 +1,1 @@
-# Gumroad Challenge
+# Gumroad
